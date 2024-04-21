@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300;400;700&family=Sono:wght,MONO@200..800,0..1&display=swap');
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: "Averia Libre", system-ui;
+    font-weight: 400;
+}
+
+h1 {
+    color: #2E839C;
+    font-size: 70px;
+    text-decoration:#D1E064 wavy underline;
+}
+
+h2 {
+    color: #1F5464;
+    font-size: 30px;
+}
+
+h3 {
+    color: #2E839C;
+    font-size: 30px;
+}
+
+body {
+    background-color: #F0D5E7;
+    font-family: "Sono", monospace;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1F5464;
+    margin-bottom: 100px;
+    
+}
+
+section {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+#fotoperfil {
+    width: 20%;
+    margin: auto;
+    display: block;
+    border-radius: 1000px;
+
+}
+
+a, #links {
+    text-decoration: none;
+    color: #2E839C;
+}
+
+a:hover {
+    color: #D1E064;
+    text-decoration: wavy underline;
+}
+
+a:visited {
+    color: #1F5464;
+}
+
+#links{
+    list-style-type: none;
+}
+
+img {
+    width: 70%;
+    margin: auto;
+    display: block;
+    border-radius: 60px;
+}
